@@ -1,2 +1,12 @@
-package PACKAGE_NAME;public class Department {
+package entites;
+public class Department {
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
